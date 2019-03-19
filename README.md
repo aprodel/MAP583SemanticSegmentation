@@ -15,6 +15,6 @@ Before running the foggy.ipynb, you should have in your root :
 		- A folder "/pretrained_models" with model_13_2_2_2__epoch_580.pth, resnet18-5c106cde.pth, resnet34-333f7ec4.pth, resnet50-19c8e357.pth. We could'nt upload it because it was too heavy, you can get it here: https://github.com/fregu856/deeplabv3/tree/master/pretrained_models  
 		- A folder "/small_cityscapes" with the resized images separated in two sets "val" and "train".
 		- A folder "/small_cityscapes_foggy" with the same resized images with the synthetic fog.
-		- A folder "/small_meta" with the labelled images.
+		- A folder "/small_meta" with the labelled images. It is build with preprocess_data.py, run it on small_cityscapes.
 
 Then run all cells of the notebook foggy.ipynb.
